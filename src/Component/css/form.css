@@ -1,0 +1,36 @@
+::placeholder{color:#fff;}
+.formBtn{
+ background:transparent url('../img/cryCloud.png') no-repeat center center;
+ background-size: 50px;
+ border: none;
+ width: 50px;
+ height: 50px;
+ cursor: pointer;
+ transition: 0.3s;
+
+}
+.formBtn:hover{
+    background:transparent url('../img/happyCloud.png') no-repeat center center;
+    background-size: 50px;
+}
+.formInp{
+    background: transparent;
+    border: 0px;
+    border-bottom: 0.5px solid #000000f8;
+    height: 40px;
+    width: 129px;
+    color: #fff;
+    padding-left: 15px;
+    margin-right: 20px;
+    font-weight: 300px;
+}
+.formInp::placeholder{
+    color:#ccc;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+.formBtn:focus,.formInp{
+    outline: none;
+}
